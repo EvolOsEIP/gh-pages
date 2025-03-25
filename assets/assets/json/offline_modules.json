@@ -11,6 +11,29 @@
                 "description": "Learn the basics of using a digital device.",
                 "instruction": "Follow the instructions to get started.",
                 "courseLevel": "Eclaireur"
+            },
+            {
+                "courseId": 2,
+                "courseIndex": 2,
+                "title": "Navigating the Internet",
+                "description": "Understand how to browse the web safely.",
+                "instruction": "Practice opening and navigating websites.",
+                "courseLevel": "Eclaireur"
+            }
+        ]
+    },
+    {
+        "moduleid": 2,
+        "modulename": "toto",
+        "modulelevel": "Explorateur",
+        "courses": [
+            {
+                "courseId": 3,
+                "courseIndex": 1,
+                "title": "Online Administrative Procedures",
+                "description": "Learn how to use online services for administration.",
+                "instruction": "Follow steps to complete an online form.",
+                "courseLevel": "Explorateur"
             }
         ]
     }
