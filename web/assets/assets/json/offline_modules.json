@@ -1,0 +1,17 @@
+[
+    {
+        "moduleid": 1,
+        "modulename": "Digital Basics",
+        "modulelevel": "Eclaireur",
+        "courses": [
+            {
+                "courseId": 1,
+                "courseIndex": 1,
+                "title": "Introduction to Digital Literacy",
+                "description": "Learn the basics of using a digital device.",
+                "instruction": "Follow the instructions to get started.",
+                "courseLevel": "Eclaireur"
+            }
+        ]
+    }
+]

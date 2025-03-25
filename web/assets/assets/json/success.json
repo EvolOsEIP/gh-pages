@@ -1,0 +1,182 @@
+{
+  "islands": [
+    {
+      "name": "Island 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "total_achievements": 7,
+      "unlocked_achievements": 4,
+      "achievements": [
+        {
+          "name": "First Steps",
+          "logo": "assets/images/achievements.png",
+          "status": "unlocked",
+          "unlock_date": "2025-03-02",
+          "description": "Lorem ipsum dolor sit amet."
+        },
+        {
+          "name": "Explorer",
+          "logo": "assets/images/achievements.png",
+          "status": "unlocked",
+          "unlock_date": "2025-02-28",
+          "description": "Consectetur adipiscing elit."
+        },
+        {
+          "name": "Master Learner",
+          "logo": "assets/images/achievements.png",
+          "status": "unlocked",
+          "unlock_date": "2025-02-26",
+          "description": "Sed do eiusmod tempor."
+        },
+        {
+          "name": "Challenge Seeker",
+          "logo": "assets/images/achievements.png",
+          "status": "pending",
+          "unlock_date": null,
+          "description": "Ut enim ad minim veniam."
+        },
+        {
+          "name": "Tech Enthusiast",
+          "logo": "assets/images/achievements.png",
+          "status": "locked",
+          "unlock_date": null,
+          "description": "Quis nostrud exercitation."
+        },
+        {
+          "name": "Curious Mind",
+          "logo": "assets/images/achievements.png",
+          "status": "unlocked",
+          "unlock_date": "2025-03-03",
+          "description": "Duis aute irure dolor."
+        },
+        {
+          "name": "Consistent Learner",
+          "logo": "assets/images/achievements.png",
+          "status": "locked",
+          "unlock_date": null,
+          "description": "Excepteur sint occaecat."
+        }
+      ]
+    },
+    {
+      "name": "Island 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "total_achievements": 10,
+      "unlocked_achievements": 6,
+      "achievements": [
+        {
+          "name": "Novice Adventurer",
+          "logo": "assets/images/achievements.png",
+          "status": "unlocked",
+          "unlock_date": "2025-03-01",
+          "description": "Sunt in culpa qui."
+        },
+        {
+          "name": "Tech Guru",
+          "logo": "assets/images/achievements.png",
+          "status": "unlocked",
+          "unlock_date": "2025-02-27",
+          "description": "Officia deserunt mollit."
+        },
+        {
+          "name": "Problem Solver",
+          "logo": "assets/images/achievements.png",
+          "status": "unlocked",
+          "unlock_date": "2025-02-26",
+          "description": "Excepteur sint occaecat."
+        },
+        {
+          "name": "Fast Thinker",
+          "logo": "assets/images/achievements.png",
+          "status": "unlocked",
+          "unlock_date": "2025-02-25",
+          "description": "Duis aute irure dolor."
+        },
+        {
+          "name": "Logical Mind",
+          "logo": "assets/images/achievements.png",
+          "status": "locked",
+          "unlock_date": "2025-03-03",
+          "description": "Ut enim ad minim veniam."
+        },
+        {
+          "name": "Quick Learner",
+          "logo": "assets/images/achievements.png",
+          "status": "locked",
+          "unlock_date": "2025-03-05",
+          "description": "Consectetur adipiscing elit."
+        },
+        {
+          "name": "Persistent Achiever",
+          "logo": "assets/images/achievements.png",
+          "status": "locked",
+          "unlock_date": null,
+          "description": "Sed do eiusmod tempor."
+        },
+        {
+          "name": "Focused Worker",
+          "logo": "assets/images/achievements.png",
+          "status": "locked",
+          "unlock_date": null,
+          "description": "Lorem ipsum dolor sit amet."
+        },
+        {
+          "name": "Adaptable Thinker",
+          "logo": "assets/images/achievements.png",
+          "status": "locked",
+          "unlock_date": null,
+          "description": "Quis nostrud exercitation."
+        },
+        {
+          "name": "Master Strategist",
+          "logo": "assets/images/achievements.png",
+          "status": "locked",
+          "unlock_date": null,
+          "description": "Excepteur sint occaecat."
+        }
+      ]
+    },
+    {
+      "name": "Island 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "total_achievements": 5,
+      "unlocked_achievements": 2,
+      "achievements": [
+        {
+          "name": "Quick Thinker",
+          "logo": "assets/images/achievements.png",
+          "status": "unlocked",
+          "unlock_date": "2025-02-25",
+          "description": "Sunt in culpa qui."
+        },
+        {
+          "name": "Efficient Learner",
+          "logo": "assets/images/achievements.png",
+          "status": "unlocked",
+          "unlock_date": "2025-02-27",
+          "description": "Duis aute irure dolor."
+        },
+        {
+          "name": "Persistence Master",
+          "logo": "assets/images/achievements.png",
+          "status": "locked",
+          "unlock_date": null,
+          "description": "Ut enim ad minim veniam."
+        },
+        {
+          "name": "Logical Thinker",
+          "logo": "assets/images/achievements.png",
+          "status": "locked",
+          "unlock_date": null,
+          "description": "Excepteur sint occaecat."
+        },
+        {
+          "name": "Strategic Planner",
+          "logo": "assets/images/achievements.png",
+          "status": "locked",
+          "unlock_date": null,
+          "description": "Officia deserunt mollit."
+        }
+      ]
+    }
+  ]
+}
