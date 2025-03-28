@@ -10,31 +10,42 @@
                 "title": "Introduction to Digital Literacy",
                 "description": "Learn the basics of using a digital device.",
                 "instruction": "Follow the instructions to get started.",
-                "courseLevel": "Eclaireur"
-            },
-            {
-                "courseId": 2,
-                "courseIndex": 2,
-                "title": "Navigating the Internet",
-                "description": "Understand how to browse the web safely.",
-                "instruction": "Practice opening and navigating websites.",
-                "courseLevel": "Eclaireur"
+                "courseLevel": "Eclaireur",
+                "closingMessage": "Félicitation tu as fini ton premier cours!"
             }
-        ]
+        ],
+        "evaluation": {
+            "evaluationId": 1,
+            "title": "Evaluation demo ",
+            "summary": "Ceci est une fausse évalutation qui a pour but de montrer à quoi celle-ci peut resssembler.",
+            "assistantDiag": "",
+            "badgeId": 1,
+            "scorePercentage": -1,
+            "badgeEarned": false
+        }
     },
     {
         "moduleid": 2,
-        "modulename": "toto",
+        "modulename": "internet",
         "modulelevel": "Explorateur",
         "courses": [
-            {
-                "courseId": 3,
-                "courseIndex": 1,
-                "title": "Online Administrative Procedures",
-                "description": "Learn how to use online services for administration.",
-                "instruction": "Follow steps to complete an online form.",
-                "courseLevel": "Explorateur"
-            }
-        ]
+          {
+            "courseId": 3,
+            "courseIndex": 1,
+            "title": "Online Administrative Procedures",
+            "description": "Learn how to use online services for administration.",
+            "instruction": "Follow steps to complete an online form.",
+            "courseLevel": "Explorateur"
+          }
+        ],
+      "evaluation": {
+        "evaluationId": 2,
+        "title": "Evaluation demo 2",
+        "summary": "Ceci est une fausse évalutation qui a pour but de montrer à quoi celle-ci peut resssembler.",
+        "assistantDiag": "",
+        "badgeId": 2,
+        "scorePercentage": -1,
+        "badgeEarned": false
+      }
     }
 ]

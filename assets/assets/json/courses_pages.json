@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Étape 1 : À vos lettres ! \uD83D\uDD20",
+    "dialogs": [
+      "Bonjour et bienvenue dans votre premier cours de maîtrise du clavier ! \uD83C\uDF89",
+      "Aujourd'hui, on va commencer doucement : \nvotre mission est de recopier une phrase simple.",
+      "Prêt(e) ? Allez, à vos claviers !"
+    ],
+    "stepId": 1,
+    "instructions": "Tapez le mot affiché à l'écran en utilisant uniquement des lettres minuscules. Prenez votre temps pour trouver les bonnes touches.",
+    "widgets": {
+      "actions": [
+        {
+          "type": "input_text",
+          "description": " ",
+          "expected_value": "bonjour"
+        }
+      ],
+      "instructions": [
+        {
+          "type": "image",
+
+          "description": " ",
+          "data": "assets/images/modules/1_basics/ch1/course1/step1.png"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Étape 2 : Cap sur les majuscules ! ⬆\uFE0F\uD83D\uDD20",
+    "stepId": 2,
+    "instructions": "Tapez le mot affiché, mais cette fois, commencez avec une majuscule. Utilisez la touche Majuscule (ou Shift) pour y arriver.",
+    "widgets": {
+      "actions": [
+        {
+          "type": "input_text",
+          "description": " ",
+          "expected_value": "Bonjour"
+
+        }
+      ],
+      "instructions": [
+        {
+          "type": "image",
+          "description": " ",
+          "data": "assets/images/modules/1_basics/ch1/course1/step2.png"
+
+        }
+      ]
+    }
+  },
+  {
+    "title": "Étape 3 : Espace, le grand voyageur ⎵",
+    "stepId": 3,
+    "instructions": "Tapez la mini phrase affichée à l'écran. Vous devrez inclure des espaces entre les mots pour qu’elle soit correcte.",
+    "widgets": {
+      "actions": [
+        {
+          "type": "input_text",
+
+          "description": " ",
+          "expected_value": "bonjour mon ami"
+
+        }
+      ],
+      "instructions": [
+        {
+          "type": "image",
+          "description": " ",
+          "data": "assets/images/modules/1_basics/ch1/course1/step3.png"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Étape 4 : La totale ! ⚫\uFE0F",
+    "stepId": 4,
+    "instructions": "Tapez la phrase affichée en respectant les majuscules et les espaces.",
+    "widgets": {
+      "actions": [
+        {
+
+          "type": "input_text",
+          "description": " ",
+          "expected_value": "Bonjour Pierre"
+        }
+      ],
+      "instructions": [
+        {
+          "type": "image",
+          "description": " ",
+          "data": "assets/images/modules/1_basics/ch1/course1/step4.png"
+
+        }
+      ]
+    }
+  }
+]
