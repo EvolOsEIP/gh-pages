@@ -53,7 +53,7 @@ const RESOURCES = {"index.html": "f66f764a5c8411583e0b5a0e65844e5a",
 "assets/assets/json/courses_pages.json": "ec41c2b90946cc084ed7b262ff8d3fc4",
 "assets/assets/json/success.json": "96bed9cca9b8b5428106cbfb3623e695",
 "assets/assets/json/offline_modules.json": "8a2774106da8f0b842acb683aa913103",
-"assets/assets/json/courses_page_example.json": "ec41c2b90946cc084ed7b262ff8d3fc4",
+// "assets/assets/json/courses_page_example.json": "ec41c2b90946cc084ed7b262ff8d3fc4",
 "main.dart.js": "85f2319b7165d6148510648a537b6ce2",
 "flutter_bootstrap.js": "968a8322b50567f2afb64eeefee5c145",
 "version.json": "a7e55a991cc69f60ca0a7cbd4169ae40"};
