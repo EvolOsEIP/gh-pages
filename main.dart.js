@@ -80668,7 +80668,7 @@ uD(){var s=0,r=A.O(t.H),q=1,p,o=this,n,m,l,k,j
 var $async$uD=A.K(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.R(o.ay.yK("assets/courses_page_example.json"),$async$uD)
+return A.R(o.ay.yK("assets/assets/json/courses_page.json"),$async$uD)
 case 6:n=b
 if(J.i7(n)){m=J.aY(n,o.w)
 o.aa(new A.aiS(o,m,n))}q=1
