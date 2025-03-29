@@ -12,6 +12,24 @@
                 "instruction": "Follow the instructions to get started.",
                 "courseLevel": "Eclaireur",
                 "closingMessage": "Félicitation tu as fini ton premier cours!"
+            },
+            {
+              "courseId": 2,
+              "courseIndex": 2,
+              "title": "Introduction to Digital Literacy",
+              "description": "Learn the basics of using a digital device.",
+              "instruction": "Follow the instructions to get started.",
+              "courseLevel": "Eclaireur",
+              "closingMessage": "Félicitation tu as fini ton premier cours!"
+            },
+            {
+              "courseId": 3,
+              "courseIndex": 3,
+              "title": "Introduction to Digital Literacy",
+              "description": "Learn the basics of using a digital device.",
+              "instruction": "Follow the instructions to get started.",
+              "courseLevel": "Eclaireur",
+              "closingMessage": "Félicitation tu as fini ton premier cours!"
             }
         ],
         "evaluation": {

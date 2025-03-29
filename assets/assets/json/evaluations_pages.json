@@ -1,0 +1,48 @@
+[
+  {
+    "type": "evaluation",
+    "title": "Titre",
+    "stepId": 1,
+    "instructions": "instructions a suivre",
+    "widgets": {
+      "actions": [
+        {
+          "type": "input_text",
+          "description": " ",
+          "expected_value": "bonjour"
+        }
+      ],
+      "instructions": [
+        {
+          "type": "image",
+
+          "description": " ",
+          "data": "assets/images/modules/1_basics/ch1/course1/step1.png"
+        }
+      ]
+    }
+  },
+  {
+    "type": "evaluation 2",
+    "title": "Titre",
+    "stepId": 2,
+    "instructions": "instructions a suivre",
+    "widgets": {
+      "actions": [
+        {
+          "type": "input_text",
+          "description": " ",
+          "expected_value": "bonjour"
+        }
+      ],
+      "instructions": [
+        {
+          "type": "image",
+
+          "description": " ",
+          "data": "assets/images/modules/1_basics/ch1/course1/step1.png"
+        }
+      ]
+    }
+  }
+]
