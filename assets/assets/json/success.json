@@ -2,7 +2,7 @@
   "islands": [
     {
       "name": "Island 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Objectif : Apprendre à taper du texte correctement et utiliser les caractères essentiels.",
       "total_achievements": 7,
       "unlocked_achievements": 4,
       "achievements": [

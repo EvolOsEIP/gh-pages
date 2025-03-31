@@ -1,9 +1,32 @@
 [
   {
     "type": "evaluation",
-    "title": "Titre",
+    "title": "Titre 1",
     "stepId": 1,
-    "instructions": "instructions a suivre",
+    "instructions": "1ere question, exemple d'interface.",
+    "widgets": {
+      "actions": [
+        {
+          "type": "input_text",
+          "description": " ",
+          "expected_value": "réponse à la question 1"
+        }
+      ],
+      "instructions": [
+        {
+          "type": "image",
+
+          "description": " ",
+          "data": "assets/images/modules/1_basics/ch1/course1/step1.png"
+        }
+      ]
+    }
+  },
+  {
+    "type": "evaluation",
+    "title": "Titre 2",
+    "stepId": 2,
+    "instructions": "Question 2",
     "widgets": {
       "actions": [
         {
@@ -23,16 +46,39 @@
     }
   },
   {
-    "type": "evaluation 2",
-    "title": "Titre",
-    "stepId": 2,
-    "instructions": "instructions a suivre",
+    "type": "evaluation",
+    "title": "Titre 3",
+    "stepId": 3,
+    "instructions": "instructions a suivre 3",
     "widgets": {
       "actions": [
         {
           "type": "input_text",
           "description": " ",
-          "expected_value": "bonjour"
+          "expected_value": "non"
+        }
+      ],
+      "instructions": [
+        {
+          "type": "image",
+
+          "description": " ",
+          "data": "assets/images/modules/1_basics/ch1/course1/step1.png"
+        }
+      ]
+    }
+  },
+  {
+    "type": "evaluation",
+    "title": "Titre 4",
+    "stepId": 4,
+    "instructions": "instructions a suivre 4",
+    "widgets": {
+      "actions": [
+        {
+          "type": "input_text",
+          "description": " ",
+          "expected_value": "oui"
         }
       ],
       "instructions": [

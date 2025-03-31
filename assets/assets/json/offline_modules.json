@@ -1,35 +1,25 @@
 [
     {
-        "moduleid": 1,
-        "modulename": "Digital Basics",
-        "modulelevel": "Eclaireur",
+        "moduleId": 1,
+        "moduleName": "Île 1 : Premiers pas avec son appareil",
+        "descriptionModule": "Objectif : Apprendre à taper du texte correctement et utiliser les caractères essentiels.",
+        "moduleLevel": "Eclaireur",
         "courses": [
             {
                 "courseId": 1,
                 "courseIndex": 1,
-                "title": "Introduction to Digital Literacy",
-                "description": "Learn the basics of using a digital device.",
-                "instruction": "Follow the instructions to get started.",
+                "title": "Des lettres",
+                "description": "Débuter avec son clavier: d'une simple lettre à des mots.",
                 "courseLevel": "Eclaireur",
                 "closingMessage": "Félicitation tu as fini ton premier cours!"
             },
             {
               "courseId": 2,
               "courseIndex": 2,
-              "title": "Introduction to Digital Literacy",
-              "description": "Learn the basics of using a digital device.",
-              "instruction": "Follow the instructions to get started.",
+              "title": "Passons aux ponctuations",
+              "description": "Pour faire des phrases il nous faut plus que des lettres.",
               "courseLevel": "Eclaireur",
-              "closingMessage": "Félicitation tu as fini ton premier cours!"
-            },
-            {
-              "courseId": 3,
-              "courseIndex": 3,
-              "title": "Introduction to Digital Literacy",
-              "description": "Learn the basics of using a digital device.",
-              "instruction": "Follow the instructions to get started.",
-              "courseLevel": "Eclaireur",
-              "closingMessage": "Félicitation tu as fini ton premier cours!"
+              "closingMessage": "Félicitation tu as fini ton cours!"
             }
         ],
         "evaluation": {
@@ -43,16 +33,15 @@
         }
     },
     {
-        "moduleid": 2,
-        "modulename": "internet",
-        "modulelevel": "Explorateur",
+        "moduleId": 2,
+        "moduleName": "Ile 2: xxxx",
+        "moduleLevel": "Explorateur",
         "courses": [
           {
             "courseId": 3,
             "courseIndex": 1,
-            "title": "Online Administrative Procedures",
-            "description": "Learn how to use online services for administration.",
-            "instruction": "Follow steps to complete an online form.",
+            "title": "Apprendre les gestes tactiles.",
+            "description": "tapper, glisser, maintenir…",
             "courseLevel": "Explorateur"
           }
         ],
@@ -62,7 +51,7 @@
         "summary": "Ceci est une fausse évalutation qui a pour but de montrer à quoi celle-ci peut resssembler.",
         "assistantDiag": "",
         "badgeId": 2,
-        "scorePercentage": -1,
+        "scorePercentage": 100,
         "badgeEarned": false
       }
     }
