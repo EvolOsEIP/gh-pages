@@ -37,7 +37,7 @@ jobs:
       run: cd mobile_app && flutter build web --release
 
     - name: Remove <base href="/"> line from index.html
-      run: sed -i '/<base href=".*">/d' web/index.html
+      run: cd mobile_app && sed -i '/<base href=".*">/d' web/index.html
     
     - name: Setup Pages
       if: github.ref == 'refs/heads/main'
