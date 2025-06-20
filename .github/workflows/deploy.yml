@@ -27,17 +27,17 @@ jobs:
         channel: stable
 
     - run: flutter --version
-      - name: Install dependencies
-        run: cd mobile_app && flutter pub get
+    - name: Install dependencies
+      run: cd mobile_app && flutter pub get
 
-      - name: create environment
-        run: cd mobile_app && echo "HOST_URL:clement.lagier:3000\nCACHING_KEY=test_key" > .env
+    - name: create environment
+      run: cd mobile_app && echo "HOST_URL:clement.lagier:3000\nCACHING_KEY=test_key" > .env
 
-      - name: Build Web
-        run: cd mobile_app && flutter build web --release
+    - name: Build Web
+      run: cd mobile_app && flutter build web --release
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/web
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build/web
