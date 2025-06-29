@@ -31,7 +31,7 @@ jobs:
       run: echo "HOST_URL:clement.lagier:3000" > mobile_app/.env
 
     - name: create CACHING environment
-      run: echo "CACHING_KEY=test_key" > mobile_app/.env
+      run: echo "CACHING_KEY=test_key" >> mobile_app/.env
 
     - name: Show .env
       run: cat mobile_app/.env
