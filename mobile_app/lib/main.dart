@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/roadmap': (context) => RoadmapPage(),
         '/evaluation': (context) =>
-            const EvaluationPage(evaluationId: 1, score: 0),
+            const EvaluationPage(evaluationId: 1, score: 0, moduleId: -1, nextModuleId: -1),
         '/course': (context) => const CoursePage(courseId: 1),
         '/form': (context) => OnboardingForm(),
         '/profile': (context) => ProfilePage(),

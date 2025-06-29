@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 /// Widget that displays an image with an optional description.
 ///
@@ -9,7 +10,7 @@ Widget imageWidget(BuildContext context, String imagePath, String description) {
   return Column(
     children: [
       Image.network(
-        "http://clementlagier.fr:3000/api/images/image-123456789.jpg",
+        "http://" + dotenv.env["HOST_URL"].toString() +  "/api/images/" + imagePath,
         fit: BoxFit.contain,
         height: MediaQuery.of(context).size.height * 0.25,
         width: double.infinity,

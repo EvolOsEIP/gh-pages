@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:mobile_app/utils/fetchData.dart';
@@ -8,6 +10,7 @@ import 'package:mobile_app/widgets/instructions_widgets.dart';
 import 'package:mobile_app/services/evaluation_service.dart';
 import 'package:mobile_app/utils/stars.dart';
 import 'package:mobile_app/widgets/evaluation_widgets.dart';
+import 'package:mobile_app/services/api_service.dart';
 
 /// A stateful widget representing an evaluation page.
 ///
@@ -17,9 +20,11 @@ import 'package:mobile_app/widgets/evaluation_widgets.dart';
 class EvaluationPage extends StatefulWidget {
   final dynamic evaluationId;  ///< The ID of the evaluation to load.
   final dynamic score;         ///< The initial score passed to the page.
+  final int moduleId;         ///< The module ID in case we need to complete this module.
+  final int nextModuleId;         ///< The next module ID in case we need to complete this module.
 
   /// Constructor requiring a [evaluationId] to load the respective evaluation data.
-  const EvaluationPage({super.key, required this.evaluationId, required this.score});
+  const EvaluationPage({super.key, required this.evaluationId, required this.score, required this.moduleId, required this.nextModuleId});
 
   @override
   _EvaluationPage createState() => _EvaluationPage();
@@ -46,7 +51,8 @@ class _EvaluationPage extends State<EvaluationPage> {
   /// This method fetches the evaluation steps, instructions, and actions, then updates the state.
   Future<void> loadData() async {
     try {
-      List<dynamic> jsonData = await _evaluationService.fetchSteps(widget.evaluationId);
+      // List<dynamic> jsonData = await _evaluationService.fetchSteps(widget.evaluationId);
+      List<dynamic> jsonData = await ApiService().fetch("evaluations/${widget.evaluationId}/steps", "assets/json/evaluations_pages.json");
       if (jsonData.isNotEmpty && currentStep < jsonData.length) {
         Map<String, dynamic> step = jsonData[currentStep];
         setState(() {
@@ -74,6 +80,7 @@ class _EvaluationPage extends State<EvaluationPage> {
 
     // Load data only if it has not been loaded yet.
     if (!isDataLoaded) {
+      print("loading data.....");
       loadData();
     }
   }
@@ -120,7 +127,7 @@ class _EvaluationPage extends State<EvaluationPage> {
   ///
   /// The pop-up shows a completion message based on the user's score, along with a star rating.
   /// It provides feedback depending on whether the user passed or failed the evaluation.
-  void _showCompletionDialog(double finalScore) {
+  void _showCompletionDialog(double finalScore) async {
     String message = "";
 
     String formattedScore = finalScore.toStringAsFixed(1);
@@ -135,6 +142,20 @@ class _EvaluationPage extends State<EvaluationPage> {
         message = "Bien joué, tu as réussi l'évaluation.";
       case 3:
         message = "Félicitations, tu as brillamment réussi !";
+    }
+    if (stars > 0) {
+      final ApiService _apiService = ApiService();
+      final int  moduleId = widget.moduleId;
+      List<dynamic> response = await _apiService.put("modules/$moduleId/complete", {'nextModuleId': widget.nextModuleId.toString()});
+      if (response.isNotEmpty && response[0] == "success") {
+        if (kDebugMode) {
+          print("module completed successfully.");
+        }
+      } else {
+        if (kDebugMode) {
+          print("Error completing module: $response");
+        }
+      }
     }
     showDialog(
       context: context,

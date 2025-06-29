@@ -14,7 +14,6 @@ class ModuleService {
         '/api/roadmap',
         headers: {'Authorization': "Bearer " + token.toString()},
       );
-      print("roadmap: " + mod.toString());
       if (mod.isEmpty) {
         print("No modules found, loading local JSON");
         // If no modules are found, load the local JSON file
