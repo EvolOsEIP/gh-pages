@@ -27,8 +27,11 @@ jobs:
       with:
         channel: stable
 
-    - name: create environment
-      run: cd mobile_app && echo "HOST_URL:clement.lagier:3000\nCACHING_KEY=test_key" > .env
+    - name: create URL environment
+      run: echo "HOST_URL:clement.lagier:3000" > mobile_app/.env
+
+    - name: create CACHING environment
+      run: echo "CACHING_KEY=test_key" > mobile_app/.env
 
     - name: Show .env
       run: cat mobile_app/.env
