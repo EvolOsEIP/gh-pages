@@ -30,6 +30,9 @@ jobs:
     - name: create environment
       run: cd mobile_app && echo "HOST_URL:clement.lagier:3000\nCACHING_KEY=test_key" > .env
 
+    - name: Show .env
+      run: cat mobile_app/.env
+
     - name: Enable Flutter Web
       run: cd mobile_app && flutter config --enable-web
 
